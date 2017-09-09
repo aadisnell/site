@@ -1,0 +1,301 @@
+<<<<<<< HEAD
+body {
+  font-size: 16px;
+
+
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+
+}
+
+.navbar-brand h1{
+  font-family: 'lora', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  margin-bottom: 4px;
+
+}
+#nav-list a{
+  color:#222;
+  text-align: center;
+}
+#nav-list {
+  margin-top: 5px;
+}
+
+#nav-list a:hover{
+  background: #E7E7E7;
+
+}
+
+#nav-list a span{
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #222;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+
+}
+
+.jumbotron {
+background-image: url('../images/jumbo_1200.jpg');
+background-size: cover;
+height: 85vh;
+}
+
+  .panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+
+
+}
+
+
+.img-thumbnail {
+  opacity: 1.5px;
+
+}
+#contact{
+  margin-top: auto;
+  padding-top: 50;
+}
+#foot{
+  color:#f6b319;
+}
+
+.navbar-text >a {
+  color: #f6b319;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+ #real-me {
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+ #read-1 {
+
+text-align: justify;
+ position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Oxygen', sans-serif;
+
+  line-height: 1.50;
+  letter-spacing:2px;
+
+}
+
+/*********** Large devices only *************/
+
+@media (min-width: 1200px)
+{
+
+
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+
+
+
+}
+  @media (max-width: 767px) {
+  /* Header */
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+
+}
+=======
+body {
+  font-size: 16px;
+
+
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+
+}
+
+.navbar-brand h1{
+  font-family: 'lora', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  margin-bottom: 4px;
+
+}
+#nav-list a{
+  color:#222;
+  text-align: center;
+}
+#nav-list {
+  margin-top: 5px;
+}
+
+#nav-list a:hover{
+  background: #E7E7E7;
+
+}
+
+#nav-list a span{
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #222;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+
+}
+
+.jumbotron {
+background-image: url('../images/jumbo_1200.jpg');
+background-size: cover;
+height: 85vh;
+}
+
+  .panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+
+
+}
+
+
+.img-thumbnail {
+  opacity: 1.5px;
+
+}
+#contact{
+  margin-top: auto;
+  padding-top: 50;
+}
+#foot{
+  color:#f6b319;
+}
+
+.navbar-text >a {
+  color: #f6b319;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+ #real-me {
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+ #read-1 {
+
+text-align: justify;
+ position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Oxygen', sans-serif;
+
+  line-height: 1.50;
+  letter-spacing:2px;
+
+}
+
+/*********** Large devices only *************/
+
+@media (min-width: 1200px)
+{
+
+
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+
+
+
+}
+  @media (max-width: 767px) {
+  /* Header */
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+
+}
+>>>>>>> 191bcc7cd16e5544df155599c810d78dface899f
